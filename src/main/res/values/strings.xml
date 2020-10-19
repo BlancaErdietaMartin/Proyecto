@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Libreria ATENEA</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Libreria ATENEA</string>
+    <string name="nav_header_subtitle">gumapla@hotmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_libros">Libros</string>
+    <string name="menu_material">Material</string>
+    <string name="menu_juguetes">Juguetes</string>
+    <string name="menu_regalos">Regalos</string>
+    <string name="menu_otros">Otros</string>
+    <string name="menu_fotocopias">Fotocopias</string>
+    <string name="titulo">Libreria ATENEA</string>
+    <string name="telefono">Tlf: 695 909 528/927 430 223</string>
+    <string name="direccion">C/ Gonzalo de Córdoba Nº5 Montehermoso(Cáceres)</string>
+    <string name="TituloFotocopias">Fotocopias</string>
+    <string name="SubirArchivo">Suba aqui su archivo</string>
+    <string name="suba_aqui_su_archivo">Suba aqui su archivo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

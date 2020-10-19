@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    android:label="@string/titulo"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_fotocopias"
+        android:name="com.example.proyecto.FotocopiasFragment"
+        android:label="@string/titulo"
+        tools:layout="@layout/fragment_fotocopias" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.proyecto.HomeFragment"
+        android:label="@string/titulo"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_libros"
+        android:name="com.example.proyecto.LibrosFragment"
+        android:label="@string/menu_libros"
+        tools:layout="@layout/fragment_libros" />
+
+    <fragment
+        android:id="@+id/nav_material"
+        android:name="com.example.proyecto.MaterialFragment"
+        android:label="@string/menu_material"
+        tools:layout="@layout/fragment_material" />
+
+    <fragment
+        android:id="@+id/nav_juguetes"
+        android:name="com.example.proyecto.JuguetesFragment"
+        android:label="@string/menu_juguetes"
+        tools:layout="@layout/fragment_juguetes" />
+
+
+    <fragment
+        android:id="@+id/nav_otros"
+        android:name="com.example.proyecto.OtrosFragment"
+        android:label="@string/menu_otros"
+        tools:layout="@layout/fragment_otros" />
+
+</navigation>
